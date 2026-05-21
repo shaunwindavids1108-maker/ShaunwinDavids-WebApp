@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CTU Training Solutions</title>
+    <style>
+        /* Reset default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(to right, #e0f7fa, #e8f5e9);
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #007bff;
+            color: #c61c1c;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin-bottom: 10px;
+        }
+
+        nav a {
+            color: #b91212;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            background: url('https://images.unsplash.com/photo-1581091012184-1371f7bbd013?auto=format&fit=crop&w=1950&q=80') no-repeat center center/cover;
+            color: #940808;
+            height: 70vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .hero h2 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+
+        .hero p {
+            font-size: 1.2em;
+            max-width: 600px;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+        }
+
+        .cta-button {
+            margin-top: 20px;
+            padding: 15px 30px;
+            background-color: #cc1919;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .cta-button:hover {
+            background-color: #884221;
+        }
+
+        section {
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        section h2 {
+            color: #007bff;
+            margin-bottom: 20px;
+        }
+
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        .feature {
+            background: linear-gradient(145deg, #ffffffcc, #d9f7f7cc);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+            flex: 1 1 250px;
+            max-width: 300px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .feature:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+        }
+
+        footer {
+            background: #333333;
+            color: #ffffff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        /* Optional: smooth scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>CTU Training Solutions</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#courses">Courses</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h2>Become a Certified Cloud Administrator</h2>
+        <p>Join CTU Training Solutions and master cloud technologies with our hands-on courses designed for future cloud professionals.</p>
+        <a href="#courses" class="cta-button">Explore Courses</a>
+    </div>
+
+    <section id="about">
+        <h2>About CTU Training Solutions</h2>
+        <p>CTU Training Solutions is dedicated to training the next generation of cloud administrators. Our courses combine expert instruction, real-world projects, and flexible learning paths to prepare students for high-demand cloud careers.</p>
+    </section>
+
+    <section id="courses">
+        <h2>Our Courses</h2>
+        <div class="features">
+            <div class="feature">
+                <h3>Cloud Fundamentals</h3>
+                <p>Learn the basics of cloud computing, networking, and storage with hands-on labs and interactive lessons.</p>
+            </div>
+            <div class="feature">
+                <h3>AWS & Azure Administration</h3>
+                <p>Gain expertise in managing cloud environments on AWS and Microsoft Azure platforms.</p>
+            </div>
+            <div class="feature">
+                <h3>DevOps & Automation</h3>
+                <p>Master cloud automation, CI/CD pipelines, and infrastructure as code tools for real-world deployment.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Get in Touch</h2>
+        <p>Have questions or ready to enroll? Contact us today!</p>
+        <p>Email: <a href="mailto:info@ctutraining.com">info@ctutraining.com</a> | Phone: +1 234 567 890</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 CTU Training Solutions. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
